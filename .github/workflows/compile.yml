@@ -11,5 +11,5 @@ jobs:
             latexmk -xelatex unicode-math.ltx
       - uses: actions/upload-artifact@v4.6.2
         with:
-          name: unicode-math.pdf
-          path: unicode-math-doc
+          name: unicode-math-doc
+          path: unicode-math.pdf
